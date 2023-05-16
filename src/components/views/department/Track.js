@@ -61,15 +61,7 @@ const Track = () => {
   return (
     <Box m='20px'>
       <Box display={'flex'} justifyContent='space-evenly' alignItems={'center'}>
-        <Box mr='10px'>
-          {!token && (
-            <img
-              src='https://i.ibb.co/svJ55Td/Courier-Tn-M-removebg-preview.png'
-              alt='Courier-Tn-M'
-              height={75}
-            />
-          )}
-        </Box>
+        
         <TextField
           required
           value={refId}
